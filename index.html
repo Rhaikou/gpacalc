@@ -1,0 +1,27 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	
+	<title>JYU GPA calcluator</title>
+	<meta name="description" content="Calculate your JYU GPA!">
+	<meta name="author" content="Riku Rundelin">
+	
+	<link rel="stylesheet" href="styles.css">
+	<script src="jquery.js"></script>
+	<script src="script.js"></script>
+</head>
+
+<body>
+	<div id="wrapper">
+	<h1 class="centered">Calculate your JYU GPA</h1>
+	<p class="centered">Paste the source code of your transcript of records page from Korppi here.</p>
+	<form id="transcript-form">
+	<textarea id="transcript-input" class="centered" rows="20" cols="50"></textarea>
+	<input type="submit" id="transcript-submit" class="centered" value="Calculate GPA!"/>
+	</form>
+	<label class="centered">Your GPA is: <input id="gpa-box" type="text" readonly></label>
+	</div>
+</body>
+</html>
